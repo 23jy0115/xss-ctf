@@ -1,2 +1,3 @@
 # xss-ctf
-XSSのCTF用
+> [!Note]
+> XSSの攻撃手法を用いて、Flagを取ろう！
