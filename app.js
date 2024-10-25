@@ -18,6 +18,10 @@ app.get('/', checkUserAgent, (req, res) => {
     res.render('index', { userAgent });
 });
 
+app.get('/post', checkUserAgent, (req, res) => {
+    res.render('failure')
+});
+
 app.listen(PORT, () => {
     console.log(`server is listening => http://localhost:${PORT}`);
 });
